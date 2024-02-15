@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .slider-dot {
+    @apply bg-main04 w-2.5 h-2.5 m-0 rounded-full opacity-100 [&.is-active]:bg-main01 [&.is-active]:scale-100;
+  }
+}
